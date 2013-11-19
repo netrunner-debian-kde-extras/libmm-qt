@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 0.5.1 amd64 s390x
+# SymbolsHelper-Confirmed: 0.5.1 amd64 armhf s390x
 libModemManagerQt.so.0 libmodemmanagerqt0 #MINVER#
  (optional=templinst)_Z19qDBusMarshallHelperI5QListI15QDBusObjectPathEEvR13QDBusArgumentPKT_@Base 0.0~git20130816
  (optional=templinst)_Z19qDBusMarshallHelperI5QListI4QMapI7QString8QVariantEEEvR13QDBusArgumentPKT_@Base 0.5.0
@@ -68,20 +68,20 @@ libModemManagerQt.so.0 libmodemmanagerqt0 #MINVER#
  (optional=templinst)_ZN10QDBusReplyIN12ModemManager18ModemCdmaInterface17ServingSystemTypeEED2Ev@Base 0.0~git20130816
  (optional=templinst)_ZN10QDBusReplyIN12ModemManager25ModemGsmContactsInterface11ContactTypeEED1Ev@Base 0.0~git20130816
  (optional=templinst)_ZN10QDBusReplyIN12ModemManager25ModemGsmContactsInterface11ContactTypeEED2Ev@Base 0.0~git20130816
- (optional=templinst|arch=amd64)_ZN11QMetaTypeIdI12QDBusVariantE14qt_metatype_idEv@Base 0.5.0
- (optional=templinst|arch=amd64)_ZN11QMetaTypeIdI13QDBusArgumentE14qt_metatype_idEv@Base 0.0~git20130816
- (optional=templinst|arch=amd64)_ZN11QMetaTypeIdI15QDBusObjectPathE14qt_metatype_idEv@Base 0.0~git20130816
- (optional=templinst|arch=amd64)_ZN11QMetaTypeIdI5QListI15QDBusObjectPathEE14qt_metatype_idEv@Base 0.0~git20130816
- (optional=templinst|arch=amd64)_ZN11QMetaTypeIdI5QListI4QMapI7QString8QVariantEEE14qt_metatype_idEv@Base 0.0~git20130816
- (optional=templinst|arch=amd64)_ZN11QMetaTypeIdI5QListI4QMapI7QStringS2_EEE14qt_metatype_idEv@Base 0.0~git20130816
- (optional=templinst|arch=amd64)_ZN11QMetaTypeIdI5QListI4QMapIN12ModemManager22ModemLocationInterface10CapabilityE8QVariantEEE14qt_metatype_idEv@Base 0.0~git20130816
- (optional=templinst|arch=amd64)_ZN11QMetaTypeIdI5QListIN12ModemManager25ModemGsmContactsInterface11ContactTypeEEE14qt_metatype_idEv@Base 0.0~git20130816
- (optional=templinst|arch=amd64)_ZN11QMetaTypeIdIN12ModemManager14ModemInterface13Ip4ConfigTypeEE14qt_metatype_idEv@Base 0.0~git20130816
- (optional=templinst|arch=amd64)_ZN11QMetaTypeIdIN12ModemManager14ModemInterface8InfoTypeEE14qt_metatype_idEv@Base 0.0~git20130816
- (optional=templinst|arch=amd64)_ZN11QMetaTypeIdIN12ModemManager18ModemCdmaInterface17ServingSystemTypeEE14qt_metatype_idEv@Base 0.0~git20130816
- (optional=templinst|arch=amd64)_ZN11QMetaTypeIdIN12ModemManager18ModemCdmaInterface23RegistrationStateResultEE14qt_metatype_idEv@Base 0.0~git20130816
- (optional=templinst|arch=amd64)_ZN11QMetaTypeIdIN12ModemManager24ModemGsmNetworkInterface20RegistrationInfoTypeEE14qt_metatype_idEv@Base 0.0~git20130816
- (optional=templinst|arch=amd64)_ZN11QMetaTypeIdIN12ModemManager25ModemGsmContactsInterface11ContactTypeEE14qt_metatype_idEv@Base 0.0~git20130816
+ (optional=templinst|arch=amd64 armhf)_ZN11QMetaTypeIdI12QDBusVariantE14qt_metatype_idEv@Base 0.5.0
+ (optional=templinst|arch=amd64 armhf)_ZN11QMetaTypeIdI13QDBusArgumentE14qt_metatype_idEv@Base 0.0~git20130816
+ (optional=templinst|arch=amd64 armhf)_ZN11QMetaTypeIdI15QDBusObjectPathE14qt_metatype_idEv@Base 0.0~git20130816
+ (optional=templinst|arch=amd64 armhf)_ZN11QMetaTypeIdI5QListI15QDBusObjectPathEE14qt_metatype_idEv@Base 0.0~git20130816
+ (optional=templinst|arch=amd64 armhf)_ZN11QMetaTypeIdI5QListI4QMapI7QString8QVariantEEE14qt_metatype_idEv@Base 0.0~git20130816
+ (optional=templinst|arch=amd64 armhf)_ZN11QMetaTypeIdI5QListI4QMapI7QStringS2_EEE14qt_metatype_idEv@Base 0.0~git20130816
+ (optional=templinst|arch=amd64 armhf)_ZN11QMetaTypeIdI5QListI4QMapIN12ModemManager22ModemLocationInterface10CapabilityE8QVariantEEE14qt_metatype_idEv@Base 0.0~git20130816
+ (optional=templinst|arch=amd64 armhf)_ZN11QMetaTypeIdI5QListIN12ModemManager25ModemGsmContactsInterface11ContactTypeEEE14qt_metatype_idEv@Base 0.0~git20130816
+ (optional=templinst|arch=amd64 armhf)_ZN11QMetaTypeIdIN12ModemManager14ModemInterface13Ip4ConfigTypeEE14qt_metatype_idEv@Base 0.0~git20130816
+ (optional=templinst|arch=amd64 armhf)_ZN11QMetaTypeIdIN12ModemManager14ModemInterface8InfoTypeEE14qt_metatype_idEv@Base 0.0~git20130816
+ (optional=templinst|arch=amd64 armhf)_ZN11QMetaTypeIdIN12ModemManager18ModemCdmaInterface17ServingSystemTypeEE14qt_metatype_idEv@Base 0.0~git20130816
+ (optional=templinst|arch=amd64 armhf)_ZN11QMetaTypeIdIN12ModemManager18ModemCdmaInterface23RegistrationStateResultEE14qt_metatype_idEv@Base 0.0~git20130816
+ (optional=templinst|arch=amd64 armhf)_ZN11QMetaTypeIdIN12ModemManager24ModemGsmNetworkInterface20RegistrationInfoTypeEE14qt_metatype_idEv@Base 0.0~git20130816
+ (optional=templinst|arch=amd64 armhf)_ZN11QMetaTypeIdIN12ModemManager25ModemGsmContactsInterface11ContactTypeEE14qt_metatype_idEv@Base 0.0~git20130816
  _ZN12ModemManager12DBUS_SERVICEE@Base 0.0~git20130816
  _ZN12ModemManager14ModemInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.0~git20130816
  _ZN12ModemManager14ModemInterface11qt_metacastEPKc@Base 0.0~git20130816
@@ -283,7 +283,7 @@ libModemManagerQt.so.0 libmodemmanagerqt0 #MINVER#
  _ZN12ModemManager8notifierEv@Base 0.0~git20130816
  (optional=templinst|arch=s390x)_ZN14QSharedPointerIN12ModemManager14ModemInterfaceEED1Ev@Base 0.5.1
  (optional=templinst|arch=s390x)_ZN14QSharedPointerIN12ModemManager14ModemInterfaceEED2Ev@Base 0.5.1
- (optional=templinst|arch=amd64)_ZN15QtSharedPointer16ExternalRefCountIN12ModemManager14ModemInterfaceEE5derefEPNS_20ExternalRefCountDataEPS2_@Base 0.5.0
+ (optional=templinst|arch=amd64 armhf)_ZN15QtSharedPointer16ExternalRefCountIN12ModemManager14ModemInterfaceEE5derefEPNS_20ExternalRefCountDataEPS2_@Base 0.5.0
  _ZN15QtSharedPointer20ExternalRefCountData7destroyEv@Base 0.0~git20130816
  _ZN15QtSharedPointer20ExternalRefCountDataD0Ev@Base 0.0~git20130816
  _ZN15QtSharedPointer20ExternalRefCountDataD1Ev@Base 0.0~git20130816
@@ -447,11 +447,11 @@ libModemManagerQt.so.0 libmodemmanagerqt0 #MINVER#
  _ZN51OrgFreedesktopModemManagerModemGsmContactsInterfaceD2Ev@Base 0.0~git20130816
  (optional=templinst)_ZN5QListI14QSharedPointerIN12ModemManager14ModemInterfaceEEE18detach_helper_growEii@Base 0.0~git20130816
  (optional=templinst)_ZN5QListI14QSharedPointerIN12ModemManager14ModemInterfaceEEE6appendERKS3_@Base 0.0~git20130816
- (optional=templinst|arch=amd64)_ZN5QListI14QSharedPointerIN12ModemManager14ModemInterfaceEEED1Ev@Base 0.0~git20130816
- (optional=templinst|arch=amd64)_ZN5QListI14QSharedPointerIN12ModemManager14ModemInterfaceEEED2Ev@Base 0.0~git20130816
+ (optional=templinst|arch=amd64 armhf)_ZN5QListI14QSharedPointerIN12ModemManager14ModemInterfaceEEED1Ev@Base 0.0~git20130816
+ (optional=templinst|arch=amd64 armhf)_ZN5QListI14QSharedPointerIN12ModemManager14ModemInterfaceEEED2Ev@Base 0.0~git20130816
  (optional=templinst)_ZN5QListI15QDBusObjectPathE13detach_helperEi@Base 0.0~git20130816
  (optional=templinst)_ZN5QListI15QDBusObjectPathE18detach_helper_growEii@Base 0.0~git20130816
- (optional=templinst|arch=amd64)_ZN5QListI15QDBusObjectPathE5clearEv@Base 0.0~git20130816
+ (optional=templinst|arch=amd64 armhf)_ZN5QListI15QDBusObjectPathE5clearEv@Base 0.0~git20130816
  (optional=templinst)_ZN5QListI15QDBusObjectPathE6appendERKS0_@Base 0.0~git20130816
  (optional=templinst)_ZN5QListI15QDBusObjectPathED1Ev@Base 0.0~git20130816
  (optional=templinst)_ZN5QListI15QDBusObjectPathED2Ev@Base 0.0~git20130816
