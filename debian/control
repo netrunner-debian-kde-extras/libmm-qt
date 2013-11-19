@@ -1,0 +1,38 @@
+Source: libmm-qt
+Priority: extra
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>
+Build-Depends: debhelper (>= 9), cmake (>= 2.8), libqt4-dev, pkg-config
+Standards-Version: 3.9.5
+Section: libs
+Homepage: https://projects.kde.org/projects/extragear/libs/libmm-qt
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/libmm-qt.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/libmm-qt.git
+
+Package: libmodemmanagerqt-dev
+Section: libdevel
+Architecture: any
+Depends: libmodemmanagerqt0 (= ${binary:Version}), ${misc:Depends}
+Description: Qt wrapper for ModemManager DBus API -- development files
+ Qt-only wrapper for ModemManager DBus API.
+ .
+ This package provides the development files.
+
+Package: libmodemmanagerqt0
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Qt wrapper for ModemManager DBus API
+ Qt-only wrapper for ModemManager DBus API.
+
+Package: libmodemmanagerqt-dbg
+Section: debug
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: libmodemmanagerqt0 (= ${binary:Version}), ${misc:Depends}
+Description: Qt wrapper for ModemManager DBus API -- debugging symbols
+ Qt-only wrapper for ModemManager DBus API.
+ .
+ This package provides the debugging symbols.

@@ -1,0 +1,3 @@
+usr/include/ModemManagerQt
+usr/lib/*/libModemManagerQt.so
+usr/lib/*/pkgconfig/ModemManagerQt.pc
