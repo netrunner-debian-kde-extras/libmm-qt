@@ -1,0 +1,50 @@
+Author: Maximiliano Curia <maxy@debian.org>
+Description: Use the LIB_DESTINATION cmake variable
+ Use the LIB_DESTINATION in install() calls, instead of hardcoding lib$SUFFIX.
+Last-Update: 2013-11-19
+Forwarded: no
+
+Index: libmm-qt/CMakeLists.txt
+===================================================================
+--- libmm-qt.orig/CMakeLists.txt	2013-11-19 12:50:07.743656025 +0100
++++ libmm-qt/CMakeLists.txt	2013-11-19 12:55:03.487747058 +0100
+@@ -7,6 +7,10 @@
+ set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_MODULE_PATH})
+ 
+ set(LIB_SUFFIX "" CACHE STRING "Define suffix of library directory name (32/64)" )
++set(LIB_DESTINATION "${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX}" CACHE STRING
++    "Library directory name")
++set(PKGCONFIG_INSTALL_PREFIX "${LIB_DESTINATION}/pkgconfig/" CACHE STRING
++    "Base directory for pkgconfig files")
+ 
+ find_package(Qt4 REQUIRED)
+ 
+@@ -83,7 +87,7 @@
+ add_library(ModemManagerQt SHARED ${ModemManagerQt_MOC} ${ModemManagerQt_SRCS} ${DBUS_INTERFACES_FILES})
+ 
+ target_link_libraries(ModemManagerQt ${QT_QTCORE_LIBRARY} ${QT_QTDBUS_LIBRARY})
+-install(TARGETS ModemManagerQt DESTINATION lib${LIB_SUFFIX})
++install(TARGETS ModemManagerQt DESTINATION ${LIB_DESTINATION})
+ 
+ install( FILES
+ ${ModemManagerQt_HEADERS}
+@@ -96,4 +100,5 @@
+ 
+ message(STATUS "Writing pkg-config file...")
+ configure_file(${CMAKE_SOURCE_DIR}/ModemManagerQt.pc.cmake ${CMAKE_BINARY_DIR}/ModemManagerQt.pc @ONLY)
+-install(FILES ${CMAKE_BINARY_DIR}/ModemManagerQt.pc DESTINATION "${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX}/pkgconfig/")
++install(FILES ${CMAKE_BINARY_DIR}/ModemManagerQt.pc DESTINATION
++    "${PKGCONFIG_INSTALL_PREFIX}")
+Index: libmm-qt/ModemManagerQt.pc.cmake
+===================================================================
+--- libmm-qt.orig/ModemManagerQt.pc.cmake	2013-11-19 12:50:07.743656025 +0100
++++ libmm-qt/ModemManagerQt.pc.cmake	2013-11-19 12:56:20.872631349 +0100
+@@ -18,7 +18,7 @@
+ 
+ prefix=@CMAKE_INSTALL_PREFIX@
+ exec_prefix=${prefix}
+-libdir=@CMAKE_INSTALL_PREFIX@/lib@LIB_SUFFIX@
++libdir=@LIB_DESTINATION@
+ includedir=${prefix}/include
+ 
+ Name: ModemManagerQt

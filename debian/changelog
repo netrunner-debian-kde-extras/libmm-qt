@@ -1,5 +1,6 @@
 libmm-qt (0.5.1-1) UNRELEASED; urgency=low
 
   * Initial release. (Closes: #729959)
+  * New patch: libdir.diff, honour LIB_DESTINATION.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 19 Nov 2013 10:44:43 +0100
