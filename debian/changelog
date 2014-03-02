@@ -3,6 +3,7 @@ libmm-qt (1.0.1-1~) UNRELEASED; urgency=medium
   * New upstream release.
   * Update build dependencies.
   * Change package priority.
+  * Remove patch: libdir.diff, applied upstream
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 02 Mar 2014 18:47:03 +0100
 
