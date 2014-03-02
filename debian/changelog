@@ -1,3 +1,9 @@
+libmm-qt (1.0.1-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 02 Mar 2014 18:25:21 +0100
+
 libmm-qt (0.5.1-1) unstable; urgency=low
 
   * Initial release. (Closes: #729959)
