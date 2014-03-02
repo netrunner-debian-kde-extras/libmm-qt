@@ -5,6 +5,7 @@ libmm-qt (1.0.1-1~) UNRELEASED; urgency=medium
   * Change package priority.
   * Remove patch: libdir.diff, applied upstream
   * Import ubuntu patch to bump soversion.
+  * Import ubuntu symbols file.
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 02 Mar 2014 18:47:03 +0100
 
