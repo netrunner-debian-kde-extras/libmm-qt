@@ -1,0 +1,13 @@
+Index: libmm-qt-1.0.1/CMakeLists.txt
+===================================================================
+--- libmm-qt-1.0.1.orig/CMakeLists.txt	2014-02-16 23:28:23.000000000 +0000
++++ libmm-qt-1.0.1/CMakeLists.txt	2014-02-17 15:39:54.098757975 +0000
+@@ -138,7 +138,7 @@
+ 
+ set_property(TARGET ModemManagerQt PROPERTY COMPILE_DEFINITIONS MAKE_MODEMMANAGERQT_LIB)
+ set_property(TARGET ModemManagerQt PROPERTY VERSION ${VERSION})
+-set_property(TARGET ModemManagerQt PROPERTY SOVERSION 0)
++set_property(TARGET ModemManagerQt PROPERTY SOVERSION 1)
+ 
+ message(STATUS "Writing pkg-config file...")
+ configure_file(${CMAKE_SOURCE_DIR}/ModemManagerQt.pc.cmake ${CMAKE_BINARY_DIR}/ModemManagerQt.pc @ONLY)
