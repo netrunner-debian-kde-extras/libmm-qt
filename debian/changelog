@@ -9,6 +9,7 @@ libmm-qt (1.0.1-1~) UNRELEASED; urgency=medium
   * Bump library package soversion.
   * Aesthetic change, further reduce rules file.
   * New patch: do_not_override_cflags
+  * Update symbols file.
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 02 Mar 2014 18:47:03 +0100
 
