@@ -1,0 +1,13 @@
+Index: libmm-qt/CMakeLists.txt
+===================================================================
+--- libmm-qt.orig/CMakeLists.txt	2014-03-03 10:15:18.103706269 +0100
++++ libmm-qt/CMakeLists.txt	2014-03-03 10:17:32.798769146 +0100
+@@ -24,7 +24,7 @@
+ include(CheckCXXCompilerFlag)
+ check_cxx_compiler_flag("-Werror=return-type" HAVE_GCC_ERROR_RETURN_TYPE)
+ if (HAVE_GCC_ERROR_RETURN_TYPE)
+-    set(CMAKE_CXX_FLAGS "-Werror=return-type")
++    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Werror=return-type")
+ endif()
+ 
+ include_directories(
