@@ -11,7 +11,7 @@ libmm-qt (1.0.1-1) experimental; urgency=medium
   * New patch: do_not_override_cflags
   * Update symbols file.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Mar 2014 10:29:42 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Mar 2014 11:45:56 +0100
 
 libmm-qt (0.5.1-1) unstable; urgency=low
 
