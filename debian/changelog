@@ -1,3 +1,9 @@
+libmm-qt (1.0.1-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 28 Mar 2014 11:09:13 +0100
+
 libmm-qt (1.0.1-1) experimental; urgency=medium
 
   * New upstream release.
@@ -11,7 +17,7 @@ libmm-qt (1.0.1-1) experimental; urgency=medium
   * New patch: do_not_override_cflags
   * Update symbols file.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Mar 2014 11:45:56 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 28 Mar 2014 11:08:50 +0100
 
 libmm-qt (0.5.1-1) unstable; urgency=low
 
